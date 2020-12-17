@@ -14,6 +14,7 @@ simply online translar supporting lanaguage:
 12. Russian
 13. Turkish
 0. All
+
 To use the script, run python lanaguage_from lanaguage_to words
 Sample output:
 English Translations
