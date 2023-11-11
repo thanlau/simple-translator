@@ -1,5 +1,10 @@
-# simple_translator
-simply online translar supporting lanaguage: 
+# Command-Line Translation Tool
+
+## Introduction
+This command-line tool offers a convenient way to translate words between various languages. It leverages the Reverso Context API to provide translations and example sentences, supporting multiple languages. The tool is designed for users who need quick translations without the hassle of a graphical interface.
+
+## Supported Languages
+The tool supports the following languages:
 1. Arabic
 2. German
 3. English
@@ -13,29 +18,9 @@ simply online translar supporting lanaguage:
 11. Romanian
 12. Russian
 13. Turkish
-0. All
 
-To use the script, run python lanaguage_from lanaguage_to words
-Sample output:
-English Translations
-Arabic Translations
-ما
-Arabic Example
-FBI! Everyone stop what what you're doing!
-مكتب التحقيقات الفدرالي الجميع أوقفوا ما تفعلونه
-German Translations
-was
-German Example
-And we both know what what Nina Sharp wants, she gets.
-Und wir beiden wissen: Was Nina Sharp bekommen will, bekommt sie auch.
-English Translations
-Arabic Translations
-ما
-Arabic Example
-FBI! Everyone stop what what you're doing!
-مكتب التحقيقات الفدرالي الجميع أوقفوا ما تفعلونه
-German Translations
-was
-German Example
-And we both know what what Nina Sharp wants, she gets.
-Und wir beiden wissen: Was Nina Sharp bekommen will, bekommt sie auch.
+## Installation
+To use this tool, you need Python installed on your system along with the `requests` and `beautifulsoup4` libraries. You can install these libraries using pip:
+
+```bash
+pip install requests beautifulsoup4
